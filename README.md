@@ -21,3 +21,8 @@ We would like you to write a basic user import service that, given some input da
 
 For the tests  JUnit and Spock are provided.
 You may add any libraries or frameworks you like, if you think they would help you create a better solution.
+
+## Project Setup
+We use Gradle to configure our projects. You can import this project and its `build.gradle` into IntelliJ IDEA.
+If you'd like to use plain gradle you can execute your tests with `./gradlew tests`.
+You find the users to import inside the ImportUser class.
