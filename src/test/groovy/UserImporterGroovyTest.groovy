@@ -4,7 +4,7 @@
 import spock.lang.Specification
 
 class UserImporterGroovyTest extends Specification {
-    def "someLibraryMethod returns true"() {
+    def "do an import"() {
         setup:
         def importer = new UserImporterGroovy()
 
