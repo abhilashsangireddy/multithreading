@@ -3,13 +3,13 @@
  */
 import spock.lang.Specification
 
-class LibraryTest extends Specification {
+class UserImporterGroovyTest extends Specification {
     def "someLibraryMethod returns true"() {
         setup:
-        def lib = new Library()
+        def importer = new UserImporterGroovy()
 
         when:
-        def result = lib.someLibraryMethod()
+        def result = true // importer.doThings()
 
         then:
         result == true
