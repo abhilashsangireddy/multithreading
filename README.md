@@ -1,6 +1,6 @@
-# Coding Challenge - User Import
+# Coding Challenge
 
-## Part I
+## Part I - User Import
 At Small Improvements we build an application targeted towards other businesses. Many of our clients maintain their employee list in other tools.  In this case we integrate with those tools to import users into Small Improvements.
 
 Often other tools have messy data, or data that does not import easily to our system. To keep our data consistent we need to make sure we check the inputs before we accept them.
@@ -25,7 +25,7 @@ We would like you to write a basic user import service that, given some input da
 For the tests  JUnit and Spock are provided.
 You may add any libraries or frameworks you like, if you think they would help you create a better solution.
 
-## Part II
+## Part II - 1:1s
 
 We want to enhance our product with support for 1:1 meeting management. 
 
