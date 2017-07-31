@@ -25,24 +25,6 @@ We would like you to write a basic user import service that, given some input da
 For the tests  JUnit and Spock are provided.
 You may add any libraries or frameworks you like, if you think they would help you create a better solution.
 
-## Part II - 1:1s
-
-We want to enhance our product with support for 1:1 meeting management. 
-
-- Set up an endpoint (`/api/meetings`), which returns 1:1 meetings between a manager and their direct reports.
-- You will need to generate sample meeting data for now, by using the users you just imported in Part I of this task.
-- We would like the meeting data to be somewhat realistic. A manager is typically required to have one meeting per report per week. However, as well all know, nobody is perfect - managers should sometimes miss meetings. E.g. a manager with 3 reports might miss a meeting one week with one of his or her reports.
-- Tests for this part are optional.
-
-Use Spring to do this (e.g. SpringBoot). Think about how you would structure your code in a more thorough real life environment.
-
-
-A JSON output of your API could look like this:
-
-```
-[{ id: UNIQUE_MEETING_ID, manager: {EMAIL}, report: {EMAIL}, date: DATE}, ...]
-```
-
 ## Project Setup
 We use Gradle to configure our projects. You can import this project and its `build.gradle` into IntelliJ IDEA.
 If you'd like to use plain gradle you can execute your tests with `./gradlew test`.
