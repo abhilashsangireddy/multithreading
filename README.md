@@ -1,6 +1,6 @@
 # Coding Challenge
 
-## Part I - User Import
+## User Import
 At Small Improvements we build an application targeted towards other businesses. Many of our clients maintain their employee list in other tools.  In this case we integrate with those tools to import users into Small Improvements.
 
 Often other tools have messy data, or data that does not import easily to our system. To keep our data consistent we need to make sure we check the inputs before we accept them.
