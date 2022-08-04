@@ -76,7 +76,6 @@ public class UserImporterJava {
      * detect the users that are contributing to cyclic references.
      * This method works well in a case where the hierarchies are forming forests
      * (multiple disjoint graphs) instead of a single graph.
-     *
      * @param hierarchyGraph Directed graph created while iterating users.
      * @param users          List of input users.
      * @param invalidUsers   Concurrent list of invalid users.
