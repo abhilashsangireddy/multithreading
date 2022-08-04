@@ -9,7 +9,10 @@ targetCompatibility = 1.8
 
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.4.13'
-
+    implementation("com.google.guava:guava:31.1-jre")
     testCompile 'org.spockframework:spock-core:1.1-groovy-2.4'
     testCompile 'junit:junit:4.12'
+
+    def jgraphtVersion = '1.4.0'
+    compile "org.jgrapht:jgrapht-core:$jgraphtVersion"
 }

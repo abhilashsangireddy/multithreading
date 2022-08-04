@@ -6,6 +6,18 @@ class ImportUser {
     final Integer employeeNumber;
     final String managerEmail;
 
+    public String getEmail() {
+        return email;
+    }
+
+    public Integer getEmployeeNumber() {
+        return employeeNumber;
+    }
+
+    public String getManagerEmail() {
+        return managerEmail;
+    }
+
     ImportUser(String givenName, String familyName, String email, Integer employeeNumber, String managerEmail) {
         this.givenName = givenName;
         this.familyName = familyName;

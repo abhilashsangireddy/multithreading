@@ -1,9 +1,7 @@
 # Coding Challenge
 
 ## User Import
-At Small Improvements we build an application targeted towards other businesses. Many of our clients maintain their employee list in other tools.  In this case we integrate with those tools to import users into Small Improvements.
-
-Often other tools have messy data, or data that does not import easily to our system. To keep our data consistent we need to make sure we check the inputs before we accept them.
+We are looking to import some users into out system and often other tools have messy data, or data that does not import easily to our system. To keep our data consistent we need to make sure we check the inputs before we accept them.
 
 We would like you to write a basic user import service that, given some input data, can determine which users are importable.
 
@@ -15,7 +13,7 @@ We would like you to write a basic user import service that, given some input da
    - A user is not required to have a manager. 
    - The reporting structure is not allowed to be cyclic.
 
-### Your solution should provide:
+### The solution is expected to provide:
 1. An easy way to programmatically access the importable users.
 1. An end-user-readable error messages for the users that can't be imported.
 
@@ -31,3 +29,14 @@ You may add any libraries or frameworks you like, if you think they would help y
 We use Gradle to configure our projects. You can import this project and its `build.gradle` into your IDE. 
 If you'd like to use plain gradle you can execute your tests with `./gradlew test`.
 You find the users to import inside the ImportUser class.
+
+
+## Multithreading
+Though a for-loop would be more than enough to deal with a collection of size even in the order of a lakh, it will be fruitful to use the multithreading concepts
+when the operations performed on the elements of the collection prove to be expensive. This code features use of multithreading to traverse through a list of users and perform
+a set of predefined computations in them.
+
+Also, this code has a feature of detecting cycles in a forest containing directed
+graphs. 
+
+![enter image description here](https://abhilashsangireddy.github.io/mancala-documentation/pics/4.png)
